@@ -1,0 +1,29 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "物联网工程学院-lky"
+			}
+		},
+		{
+			"path": "pages/page2/page2",
+			"style": {
+				"navigationBarTitleText": "嵌入式硬件课程设计-页面2"
+			}
+		},
+		{
+			"path": "pages/page3/page3",
+			"style": {
+				"navigationBarTitleText": "嵌入式硬件课程设计-页面3"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
