@@ -1,0 +1,107 @@
+
+.wrap {
+  padding: 30rpx;
+  font-family: PingFang SC, sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+.main-title {
+  font-size: 36rpx;
+  text-align: center;
+  margin: 40rpx 0;
+  color: #333;
+  font-weight: bold;
+}
+.status-container {
+  background-color: #fff;
+  border-radius: 15rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.05);
+}
+.status-title {
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.status-value {
+  font-size: 28rpx;
+  color: #666;
+  text-align: center;
+  margin: 20rpx 0;
+}
+.status-desc {
+  font-size: 24rpx;
+  color: #999;
+  text-align: center;
+  padding-top: 20rpx;
+  border-top: 1rpx solid #eee;
+}
+.device-status {
+  background-color: #fff;
+  border-radius: 15rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.05);
+}
+.section-title {
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 20rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.device-info {
+  font-size: 26rpx;
+  color: #333;
+  margin: 20rpx 0;
+}
+.update-time {
+  font-size: 22rpx;
+  color: #999;
+}
+.light-stats {
+  background-color: #fff;
+  border-radius: 15rpx;
+  padding: 30rpx;
+  margin-bottom: 40rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.05);
+}
+.stats-item {
+  font-size: 26rpx;
+  color: #333;
+  text-align: center;
+  margin: 30rpx 0;
+}
+.control-tip {
+  font-size: 24rpx;
+  color: #666;
+  text-align: center;
+  padding: 20rpx;
+  background-color: #f5f5f5;
+  border-radius: 10rpx;
+}
+.page-switch {
+  display: flex;
+  justify-content: center;
+  margin-top: 50rpx;
+}
+.page-btn {
+  width: 180rpx; /* 增加宽度确保文字显示完整 */
+  height: 60rpx;
+  background-color: #f5f5f5;
+  border-radius: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20rpx;
+  font-size: 26rpx; /* 微调字体大小 */
+  color: #666;
+
+  border: none; /* 移除默认边框 */
+}
+.page-btn.active {
+  background-color: #2b9939;
+  color: white;
+}
+

@@ -1,0 +1,86 @@
+
+.wrap {
+  padding: 30rpx;
+  font-family: PingFang SC, sans-serif;
+  min-height: 100vh;
+}
+.chat-container {
+  background-color: #f8f8f8;
+  border-radius: 15rpx;
+  padding: 30rpx;
+  margin-bottom: 40rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.05);
+}
+.chat-history {
+  height: 600rpx;
+  overflow-y: auto;
+  margin-bottom: 30rpx;
+}
+.message {
+  margin: 20rpx 0;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  max-width: 80%;
+}
+.message.user {
+  background-color: #e3f2fd;
+  margin-left: auto;
+}
+.message.bot {
+  background-color: #f5f5f5;
+  margin-right: auto;
+}
+.input-area {
+  display: flex;
+  gap: 20rpx;
+}
+.question-input {
+  flex: 1;
+  height: 60rpx;
+  padding: 0 20rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 30rpx;
+  font-size: 26rpx;
+}
+.send-btn {
+  width: 150rpx;
+  height: 60rpx;
+  background-color: #2b9939;
+  color: white;
+  border-radius: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26rpx;
+  border: none;
+}
+.title {
+  font-size: 40rpx;
+  text-align: center;
+  margin: 30rpx 0;
+  color: #333;
+  font-weight: bold;
+}
+.page-switch {
+  display: flex;
+  justify-content: center;
+  margin-top: 50rpx;
+}
+.page-btn {
+  width: 180rpx; /* 增加宽度确保文字显示完整 */
+  height: 60rpx;
+  background-color: #f5f5f5;
+  border-radius: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20rpx;
+  font-size: 26rpx; /* 微调字体大小 */
+  color: #8f2222;
+  border: none; /* 移除默认边框 */
+}
+.page-btn.active {
+  background-color: #2b9939;
+  color: white;
+}
+
